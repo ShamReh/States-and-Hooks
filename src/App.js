@@ -5,6 +5,7 @@ import Clock from './Clock';
 import Login from './UserLogin';
 import Car from './Car';
 import ProductTable from './ProductTable';
+import Game from './Game';
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
 <Car/>
 <br></br>
 <ProductTable/>
+<br></br>
+<Game/>
 </>
   
   );
