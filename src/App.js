@@ -8,9 +8,9 @@ import ProductTable from './ProductTable';
 import Game from './Game';
 import ProductManager from './ProductManager';
 
-function App() {
+const App = () => {
   return (
-<>
+<div className="App">
 <MilesAhead/>
 <br></br>
 <Clock/>
@@ -24,7 +24,7 @@ function App() {
 <Game/>
 <br></br>
 <ProductManager/>
-</>
+</div>
   
   );
 }
