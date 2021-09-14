@@ -6,6 +6,7 @@ import Login from './UserLogin';
 import Car from './Car';
 import ProductTable from './ProductTable';
 import Game from './Game';
+import ProductManager from './ProductManager';
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
 <ProductTable/>
 <br></br>
 <Game/>
+<br></br>
+<ProductManager/>
 </>
   
   );
