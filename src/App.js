@@ -7,6 +7,10 @@ import Car from './Car';
 import ProductTable from './ProductTable';
 import Game from './Game';
 import ProductManager from './ProductManager';
+import Shopping from './Shopping';
+import LessText from './LessText';
+import Greet from './Greet';
+
 
 const App = () => {
   return (
@@ -24,6 +28,12 @@ const App = () => {
 <Game/>
 <br></br>
 <ProductManager/>
+<br></br>
+<Shopping/>
+<br></br>
+<LessText maxLength={15} text="Hello I am a piece of text"/>
+<br></br>
+<Greet name="Sham"/>
 </div>
   
   );
